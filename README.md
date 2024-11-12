@@ -1,7 +1,3 @@
-Here’s a sample README file for your GitHub repository, covering all essential details about the `MessageGatekeeper` microservice:
-
----
-
 # MessageGatekeeper Microservice
 
 ## Overview
