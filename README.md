@@ -13,7 +13,7 @@
 
 ## Prerequisites
 
-- [.NET Core 6.0 SDK](https://dotnet.microsoft.com/download)
+- [.NET Core 8.0 SDK](https://dotnet.microsoft.com/download)
 - Optional: [Redis](https://redis.io/) or other distributed cache, if deploying in a distributed environment for scalability.
 
 ## Getting Started
