@@ -25,25 +25,8 @@ git clone https://github.com/yourusername/MessageGatekeeper.git
 cd MessageGatekeeper
 ```
 
-### 2. Configure Rate Limits
 
-Edit `appsettings.json` or use environment variables to configure rate limit settings:
-
-```json
-{
-  "RateLimitConfig": {
-    "MaxMessagesPerPhoneNumberPerSecond": 2,
-    "MaxMessagesPerAccountPerSecond": 5,
-    "PhoneNumberExpirationMinutes": 5
-  }
-}
-```
-
-- **MaxMessagesPerPhoneNumberPerSecond**: Maximum messages allowed per phone number per second.
-- **MaxMessagesPerAccountPerSecond**: Maximum messages allowed across the entire account per second.
-- **PhoneNumberExpirationMinutes**: Time (in minutes) after which inactive phone numbers are removed from tracking.
-
-### 3. Run the Application
+### 2. Run the Application
 
 ```bash
 dotnet run
@@ -51,7 +34,7 @@ dotnet run
 
 The API should now be accessible at `http://localhost:5000`.
 
-### 4. API Usage
+### 3. API Usage
 
 #### Check if a Message Can Be Sent
 
@@ -72,7 +55,7 @@ curl "http://localhost:5000/api/messagegatekeeper/can-send?phoneNumber=12345"
 }
 ```
 
-### 5. Run Tests
+### 4. Run Tests
 
 The solution includes unit tests for the rate limiter service, located in the `RateLimiterServiceTests` project. Run the tests with:
 
