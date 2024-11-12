@@ -77,7 +77,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For issues or inquiries, please open an issue on GitHub or reach out to the project maintainer.
-
----
-
-This README provides clear instructions for setting up, configuring, and running the microservice, as well as guidelines for contributing and testing. Let me know if you need further customization!
