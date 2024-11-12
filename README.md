@@ -14,7 +14,6 @@
 ## Prerequisites
 
 - [.NET Core 8.0 SDK](https://dotnet.microsoft.com/download)
-- Optional: [Redis](https://redis.io/) or other distributed cache, if deploying in a distributed environment for scalability.
 
 ## Getting Started
 
@@ -70,14 +69,6 @@ dotnet test
 - **Hubs**: Contains `PhoneMessageTrackerHub`, to broad cast currently processing phonenumbers.
 - **Models**: Contains `RateLimitConfig` to define configuration properties.
 - **Tests**: Unit tests for `RateLimiterService`, located in the `RateLimiterServiceTests` project.
-
-## Deployment
-
-To deploy in production, configure the application to use a distributed cache (e.g., Redis) if multiple instances are required. Set environment variables for rate limits and any other configurations as needed.
-
-## Contributing
-
-Contributions are welcome! Please fork this repository, create a feature branch, and submit a pull request.
 
 ## License
 
