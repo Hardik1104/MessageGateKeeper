@@ -67,6 +67,7 @@ dotnet test
 
 - **Controllers**: Contains `MessageGatekeeperController` for handling API requests.
 - **Services**: Contains `RateLimiterService`, implementing the rate-limiting and cleanup logic.
+- **Hubs**: Contains `PhoneMessageTrackerHub`, to broad cast currently processing phonenumbers.
 - **Models**: Contains `RateLimitConfig` to define configuration properties.
 - **Tests**: Unit tests for `RateLimiterService`, located in the `RateLimiterServiceTests` project.
 
