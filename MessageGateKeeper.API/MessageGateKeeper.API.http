@@ -1,0 +1,6 @@
+@MessageGateKeeper.API_HostAddress = http://localhost:5181
+
+GET {{MessageGateKeeper.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
